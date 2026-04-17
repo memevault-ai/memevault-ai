@@ -4,16 +4,6 @@ Premium terminal for meme coin scanning, treasury rotation, and simulated distri
 
 The deployed project is branded as **MemeVault AI** and positioned around **AI-driven hotspot scanning plus treasury rotation for profit capture**, based on the live project page title. citeturn171927view0
 
-## What this repo is
-
-**memevault-ai** is presented as:
-
-- **product demo**
-- **live simulation**
-- **architecture-ready scanner**
-- **treasury rotation prototype**
-
-This repository is not a fully automated trading bot. It is a polished **frontend + mock backend simulation** designed to demonstrate how an AI-assisted meme coin intelligence terminal could rank candidates, rotate treasury exposure, simulate reserve logic, and visualize distribution cycles.
 
 ## Product thesis
 

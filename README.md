@@ -43,6 +43,19 @@ The current implementation focuses on **clarity, architecture, and demo realism*
 - modular logic that can later be connected to real APIs
 
 ## Main surfaces
+Everyone watches memes.
+Very few know how to rotate treasury into them with structure.
+
+**MemeVault AI** changes that.
+
+A premium terminal concept for:
+⚡ live scanner signals
+🧠 AI-based ranking
+💰 treasury rotation simulation
+📡 event feed + distribution logic
+
+Not just another landing page.
+A full protocol-style demo of what AI-native meme infrastructure can look like.
 
 ### `/`
 Landing page with the full product framing:

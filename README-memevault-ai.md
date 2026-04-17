@@ -1,0 +1,230 @@
+# MemeVault AI
+
+Premium terminal for meme coin scanning, treasury rotation, and simulated distributions.
+
+The deployed project is branded as **MemeVault AI** and positioned around **AI-driven hotspot scanning plus treasury rotation for profit capture**, based on the live project page title. citeturn171927view0
+
+## What this repo is
+
+**memevault-ai** is presented as:
+
+- **product demo**
+- **live simulation**
+- **architecture-ready scanner**
+- **treasury rotation prototype**
+
+This repository is not a fully automated trading bot. It is a polished **frontend + mock backend simulation** designed to demonstrate how an AI-assisted meme coin intelligence terminal could rank candidates, rotate treasury exposure, simulate reserve logic, and visualize distribution cycles.
+
+## Product thesis
+
+MemeVault AI explores a simple protocol idea:
+
+> A treasury should not remain idle.
+> It should continuously scan for meme coin momentum, evaluate risk, rotate into top candidates, secure profits, and expose a transparent distribution logic.
+
+The current implementation focuses on **clarity, architecture, and demo realism**:
+
+- live-style token scanner panels
+- treasury allocation and rotation views
+- PnL and reserve summaries
+- simulated distribution cycles
+- event feed and protocol documentation
+- modular logic that can later be connected to real APIs
+
+## Main surfaces
+
+### `/`
+Landing page with the full product framing:
+- hero section
+- protocol overview
+- scanner highlights
+- treasury preview
+- distribution preview
+- docs preview
+- live feed snapshot
+
+### `/bot-live`
+Scanner terminal simulation:
+- token table
+- filters
+- score and risk display
+- scanner status bar
+- momentum visualization
+
+### `/treasury`
+Treasury rotation view:
+- active positions
+- reserve overview
+- PnL summary
+- cycle cards
+- allocation charts
+
+### `/distributions`
+Distribution simulation:
+- next cycle countdown
+- reserve/distribution panel
+- payout history
+- cycle logic preview
+
+### `/docs`
+Internal protocol-style documentation:
+- architecture notes
+- product thesis
+- scanner logic
+- treasury logic
+- roadmap
+
+## Architecture
+
+The app is organized into four main layers:
+
+### 1. Presentation layer
+Built with **Next.js App Router**, reusable React components, Tailwind styling, and a terminal-inspired UI.
+
+### 2. State layer
+Lightweight client state is handled with **Zustand** stores for app, scanner, treasury, and wallet state.
+
+### 3. Engine layer
+Core simulation logic lives in `lib/`:
+- `scanner/` for ranking and classifying tokens
+- `treasury/` for rotations, PnL, and distribution calculations
+- `feed/` for event generation
+- `mock/` for realistic seeded demo content
+
+### 4. API layer
+Mock API routes return JSON from the simulation engine:
+- `/api/scanner`
+- `/api/treasury`
+- `/api/feed`
+- `/api/distributions`
+
+This keeps the project **integration-ready** without requiring live market or on-chain execution.
+
+## How the simulation works
+
+### Scanner engine
+Tokens are ranked using a simplified scoring model that blends:
+- momentum
+- liquidity / activity
+- buy vs sell balance
+- holder stability
+- risk level
+
+The scanner then classifies candidates into more readable states such as stronger setups or higher-risk assets.
+
+### Treasury rotation engine
+The treasury module simulates how capital could rotate into top-ranked candidates instead of staying static. The prototype emphasizes:
+- staged rotation logic
+- readable allocation changes
+- reserve visibility
+- closed-position tracking
+- basic PnL summaries
+
+### Distribution engine
+The distribution layer simulates periodic distribution cycles from treasury performance and reserve accounting. It is intentionally framed as a **prototype**, not a live on-chain payout system.
+
+## Tech stack
+
+- **Next.js 15**
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+- **Zustand**
+- **Recharts**
+- **Lucide React**
+
+## Project structure
+
+```bash
+memevault-ai/
+├── app/
+├── components/
+├── data/
+├── docs/
+├── hooks/
+├── lib/
+├── public/
+├── store/
+├── README.md
+└── package.json
+```
+
+### Important directories
+
+- `app/` → routes, layouts, API endpoints
+- `components/` → UI building blocks and feature modules
+- `data/` → mock datasets for tokens, treasury, distributions, feed, docs
+- `lib/` → scoring, treasury, distribution, mock seed, and utility logic
+- `store/` → Zustand stores
+- `docs/` → markdown product notes and architecture docs
+
+## Getting started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Run development server
+
+```bash
+npm run dev
+```
+
+### 3. Open the app
+
+```bash
+http://localhost:3000
+```
+
+### 4. Production build
+
+```bash
+npm run build
+npm run start
+```
+
+## Current API endpoints
+
+These routes currently return mock JSON for the UI:
+
+- `GET /api/scanner`
+- `GET /api/treasury`
+- `GET /api/feed`
+- `GET /api/distributions`
+
+They are designed so real market, wallet, and treasury services can later replace the mock layer with minimal UI changes.
+
+## Turning this into a real product
+
+A production version could connect:
+
+- market data providers
+- social / sentiment sources
+- wallet intelligence
+- holder analytics
+- treasury accounting services
+- execution policies
+- on-chain reserve and distribution contracts
+
+Natural next steps:
+
+1. Replace mock datasets with real data adapters.
+2. Add authentication and per-wallet views.
+3. Connect scanner scoring to external sources.
+4. Add real treasury policy configuration.
+5. Add audit trails and distribution proofs.
+6. Introduce signing / execution safeguards.
+
+## Notes
+
+- This repository is intentionally **demo-first**.
+- No real trading or treasury execution is performed.
+- All financial outputs shown in the UI are **simulated**.
+- The current design is meant to validate **product direction, architecture, and UX** before live integrations.
+
+## Disclaimer
+
+This software is for **product demonstration and simulation purposes only**.
+It should not be interpreted as financial advice, trading automation, custody infrastructure, or production-ready treasury software.

@@ -1,0 +1,7 @@
+[
+  {"symbol":"FLAP","entry":0.00051,"current":0.00072,"allocation":35,"confidence":89,"status":"active"},
+  {"symbol":"SNOW4","entry":0.00009,"current":0.00011,"allocation":22,"confidence":78,"status":"active"},
+  {"symbol":"DIAB","entry":0.0017,"current":0.0019,"allocation":18,"confidence":74,"status":"active"},
+  {"symbol":"DFUN","entry":0.0038,"current":0.0042,"allocation":12,"confidence":69,"status":"watch"},
+  {"symbol":"ATM","entry":0.0020,"current":0.0022,"allocation":13,"confidence":72,"status":"watch"}
+]

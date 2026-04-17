@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;
+  background-image:
+    radial-gradient(circle at top, rgba(0,212,255,0.08), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(35,193,107,0.06), transparent 20%);
+}
+
+* {
+  @apply border-border;
+}
+
+.container-shell {
+  @apply mx-auto w-full max-w-7xl px-4 md:px-6;
+}
+
+.panel {
+  @apply rounded-2xl border border-border bg-card/85 shadow-glow backdrop-blur;
+}
+
+.panel-header {
+  @apply border-b border-border px-5 py-4;
+}
+
+.panel-body {
+  @apply p-5;
+}
+
+.data-grid {
+  background-size: 24px 24px;
+  background-image: theme(backgroundImage.grid);
+}

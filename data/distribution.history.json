@@ -1,0 +1,7 @@
+[
+  {"cycle":"2026-04-10 00:00 UTC","reserveUsd":18200,"distributedUsd":6400,"yieldPct":2.8,"recipients":412},
+  {"cycle":"2026-04-10 12:00 UTC","reserveUsd":19600,"distributedUsd":7100,"yieldPct":3.1,"recipients":430},
+  {"cycle":"2026-04-11 00:00 UTC","reserveUsd":21250,"distributedUsd":7600,"yieldPct":3.3,"recipients":448},
+  {"cycle":"2026-04-11 12:00 UTC","reserveUsd":22800,"distributedUsd":8250,"yieldPct":3.6,"recipients":462},
+  {"cycle":"2026-04-12 00:00 UTC","reserveUsd":24100,"distributedUsd":9020,"yieldPct":3.9,"recipients":489}
+]

@@ -1,0 +1,4 @@
+[
+  {"symbol":"ATM","name":"ATM Vault","chain":"BSC","source":"fourmeme","price":0.0022,"change5m":1.8,"change1h":6.4,"change4h":9.2,"volume24h":340000,"buys24h":1300,"sells24h":980,"holders":7400,"holderStability":79,"risk":30},
+  {"symbol":"BUBF","name":"Bubble Butterfly","chain":"BSC","source":"fourmeme","price":0.00041,"change5m":2.2,"change1h":7.1,"change4h":13.5,"volume24h":280000,"buys24h":1020,"sells24h":840,"holders":5930,"holderStability":74,"risk":36}
+]

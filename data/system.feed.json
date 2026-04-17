@@ -1,0 +1,8 @@
+[
+  {"type":"scanner","level":"success","timestamp":"2026-04-16T18:01:00Z","message":"FLAP moved into top momentum bracket after 4H breakout confirmation."},
+  {"type":"treasury","level":"info","timestamp":"2026-04-16T18:12:00Z","message":"Treasury rotation increased FLAP allocation from 30% to 35%."},
+  {"type":"distribution","level":"success","timestamp":"2026-04-16T18:30:00Z","message":"Distribution cycle seeded with 8.9k USD from treasury reserve gains."},
+  {"type":"scanner","level":"warning","timestamp":"2026-04-16T18:46:00Z","message":"CLAWX risk elevated due to declining holder stability."},
+  {"type":"treasury","level":"success","timestamp":"2026-04-16T19:02:00Z","message":"BUBF position closed with 31% realized gain."},
+  {"type":"distribution","level":"info","timestamp":"2026-04-16T19:14:00Z","message":"Projected next-cycle recipients: 506 weighted wallets."}
+]

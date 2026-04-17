@@ -1,0 +1,7 @@
+[
+  {"symbol":"FLAP","name":"Flap Protocol","chain":"BSC","source":"flap","price":0.00072,"change5m":2.4,"change1h":8.2,"change4h":15.4,"volume24h":421000,"buys24h":1420,"sells24h":1090,"holders":9860,"holderStability":82,"risk":28},
+  {"symbol":"DIAB","name":"Diamond Butterfly","chain":"BSC","source":"flap","price":0.0019,"change5m":1.1,"change1h":5.8,"change4h":10.2,"volume24h":215000,"buys24h":910,"sells24h":760,"holders":5210,"holderStability":77,"risk":35},
+  {"symbol":"SNOW4","name":"Snow4ball","chain":"BSC","source":"fourmeme","price":0.00011,"change5m":3.8,"change1h":12.3,"change4h":18.9,"volume24h":512000,"buys24h":1860,"sells24h":1340,"holders":12050,"holderStability":72,"risk":42},
+  {"symbol":"DFUN","name":"Derby Fun","chain":"SOL","source":"scanner","price":0.0042,"change5m":0.6,"change1h":3.1,"change4h":7.8,"volume24h":298000,"buys24h":730,"sells24h":640,"holders":6450,"holderStability":86,"risk":24},
+  {"symbol":"CLAWX","name":"Clawk Terminal","chain":"BSC","source":"fourmeme","price":0.00057,"change5m":-0.9,"change1h":2.5,"change4h":5.1,"volume24h":163000,"buys24h":602,"sells24h":598,"holders":4820,"holderStability":68,"risk":48}
+]

@@ -1,0 +1,5 @@
+[
+  {"symbol":"BUBF","entry":0.00029,"exit":0.00038,"pnlPct":31.0,"realizedUsd":4200,"closedAt":"2026-04-13T16:00:00Z"},
+  {"symbol":"CLAWX","entry":0.00043,"exit":0.00052,"pnlPct":20.9,"realizedUsd":2650,"closedAt":"2026-04-14T11:20:00Z"},
+  {"symbol":"ATM","entry":0.0018,"exit":0.0021,"pnlPct":16.7,"realizedUsd":1880,"closedAt":"2026-04-15T08:00:00Z"}
+]

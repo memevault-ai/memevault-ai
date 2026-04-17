@@ -219,21 +219,20 @@ A production version could connect:
 - execution policies
 - on-chain reserve and distribution contracts
 
-Natural next steps:
+The next generation of meme scanning won’t be manual.
 
-1. Replace mock datasets with real data adapters.
-2. Add authentication and per-wallet views.
-3. Connect scanner scoring to external sources.
-4. Add real treasury policy configuration.
-5. Add audit trails and distribution proofs.
-6. Introduce signing / execution safeguards.
+**MemeVault AI** is designed as an AI-powered scanner + treasury rotation engine:
 
-## Notes
+* detect hotspots
+* rank candidates
+* simulate treasury allocation
+* track distribution cycles
+* stream live event logic
 
-- This repository is intentionally **demo-first**.
-- No real trading or treasury execution is performed.
-- All financial outputs shown in the UI are **simulated**.
-- The current design is meant to validate **product direction, architecture, and UX** before live integrations.
+Built as a **product demo**.
+Presented like a **real protocol terminal**.
+
+This is where meme velocity meets treasury intelligence.
 
 ## Disclaimer
 

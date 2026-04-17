@@ -1,11 +1,32 @@
 # MemeVault AI
 
-Premium terminal for meme coin scanning, treasury rotation, and simulated distributions.
+BSC Live Scanner
+Flap + Four.meme Signals
+Treasury Rotation System
+模因金库
+MemeVault AI
+$MVAI
+BNB Chain
+AI 扫描→金库轮动→利润分配.
+
+BSC 上的实时模因金库系统。AI 持续扫描 Flap 与 Four.meme 的新池与热点, 金库基于动量与风险信号在筛选标的之间主动轮动, 实现的利润周期性回流给持有者。
+持有 MVAI, 不是持有一个 meme — 是持有一个会扫描、会轮动、会分配利润的金库。
+
+<a href="https://freeimage.host/"><img src="https://iili.io/BUFcKb9.png" alt="BUFcKb9.png" border="0" /></a>
 
 The deployed project is branded as **MemeVault AI** and positioned around **AI-driven hotspot scanning plus treasury rotation for profit capture**, based on the live project page title. citeturn171927view0
 
 
-## Product thesis
+Meme coins move fast.
+Most people react late.
+
+MemeVault AI is built to scan momentum early, simulate treasury rotations, and surface the strongest opportunities before the crowd catches up.
+
+This is not just a dashboard.
+It’s a live simulation, a product demo, and an architecture-ready scanner prototype for AI-driven capital rotation.
+
+Signals. Rotation. Distribution logic.
+All in one terminal.
 
 MemeVault AI explores a simple protocol idea:
 
